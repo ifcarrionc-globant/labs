@@ -1,0 +1,14 @@
+uuid: 7ea62aca-1f47-472d-a400-b2057df4071f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin_project
+  module:
+    - user
+id: user_add_role_action.admin_project
+label: 'Add the Admin project role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: admin_project

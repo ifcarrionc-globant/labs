@@ -1,0 +1,32 @@
+uuid: 84ed130d-619f-4cf0-ae7b-8221f81cffb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hot_openings.body
+    - field.field.node.hot_openings.field_image
+    - node.type.hot_openings
+  module:
+    - text
+    - user
+id: node.hot_openings.teaser
+targetEntityType: node
+bundle: hot_openings
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true

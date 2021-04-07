@@ -1,0 +1,14 @@
+uuid: 51693347-93fa-4a37-85bb-a6e2f86a704f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.user_project
+  module:
+    - user
+id: user_remove_role_action.user_project
+label: 'Remove the User project role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: user_project

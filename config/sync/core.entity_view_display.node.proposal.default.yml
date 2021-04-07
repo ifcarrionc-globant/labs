@@ -1,0 +1,28 @@
+uuid: ec24c876-1c81-441f-812a-170354bb9151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.proposal.body
+    - node.type.proposal
+  module:
+    - text
+    - user
+id: node.proposal.default
+targetEntityType: node
+bundle: proposal
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

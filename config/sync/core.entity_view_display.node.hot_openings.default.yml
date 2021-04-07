@@ -1,0 +1,39 @@
+uuid: decfe923-3281-4a8a-9d38-c510df5b396f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hot_openings.body
+    - field.field.node.hot_openings.field_image
+    - node.type.hot_openings
+  module:
+    - image
+    - text
+    - user
+id: node.hot_openings.default
+targetEntityType: node
+bundle: hot_openings
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

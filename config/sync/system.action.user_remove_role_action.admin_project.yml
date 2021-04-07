@@ -1,0 +1,14 @@
+uuid: 9a34e977-c621-4ba8-8984-1cda1f22c518
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.admin_project
+  module:
+    - user
+id: user_remove_role_action.admin_project
+label: 'Remove the Admin project role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: admin_project

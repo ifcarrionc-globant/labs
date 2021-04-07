@@ -1,0 +1,9 @@
+uuid: b36a8d28-83bf-4fb6-bd9e-fb5c3bc47e87
+langcode: en
+status: true
+dependencies: {  }
+id: user_project
+label: 'User project'
+weight: 5
+is_admin: null
+permissions: {  }

@@ -1,0 +1,14 @@
+uuid: 5cbbb83a-201c-4ecf-8d30-011c27db78a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.user_project
+  module:
+    - user
+id: user_add_role_action.user_project
+label: 'Add the User project role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: user_project
